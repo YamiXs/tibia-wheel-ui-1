@@ -1,0 +1,275 @@
+[
+  {
+    "type": "dedication",
+    "name": "Hit Points",
+    "description": "Increases maximum hit points (3/2/1/1). The amount is based on the amount of hit points your vocation gains when leveling up."
+  },
+  {
+    "type": "dedication",
+    "name": "Mana",
+    "description": "Increases maximum mana (1/3/6/6). The amount is based on the amount of mana your vocation gains when leveling up."
+  },
+  {
+    "type": "dedication",
+    "name": "Hit Points & Mana",
+    "description": "Combination of the two previous perks. Increases maximum hit points and mana based on the amount your vocation gains when leveling up."
+  },
+  {
+    "type": "dedication",
+    "name": "Capacity",
+    "description": "Increases maximum capacity (5/4/2/2). The amount is based on the amount of capacity your vocation gains when leveling up."
+  },
+  {
+    "type": "dedication",
+    "name": "Mitigation",
+    "description": "Multiplicatively increases your mitigation by 0.03% for each promotion point spent."
+  },
+  {
+    "type": "conviction",
+    "name": "Fierce Berserk",
+    "stages": {
+      "1": "-30 Mana Cost",
+      "2": "+10% Base Damage"
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Intense Wound Cleansing",
+    "stages": {
+      "1": "+125% Base Healing",
+      "2": "Cooldown reduced by 300 seconds"
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Chivalrous Challenge",
+    "stages": {
+      "1": "-20 Mana Cost",
+      "2": "Increases the number of chains by 1"
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Groundshaker",
+    "stages": {
+      "1": "+12.5% Base Damage",
+      "2": "Cooldown reduced by 2 seconds"
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Front Sweep",
+    "stages": {
+      "1": "Adds 5% life leech",
+      "2": "+14% Base Damage"
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Divine Caldera",
+    "stages": {
+      "1": "-20 Mana Cost",
+      "2": "+8.5% Base Damage"
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Swift Foot",
+    "stages": {
+      "1": "Secondary Group Cooldown reduced by 8 seconds.Allows player to attack and use spells with 50% reduced damage",
+      "2": "Cooldown reduced by 6 seconds, no longer applies damage reduction."
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Divine Dazzle",
+    "stages": {
+      "1": "Increases the number of chains by 1",
+      "2": "Increased duration by 4 seconds, reduced cooldown by 4 seconds"
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Strong Ethereal Spear",
+    "stages": {
+      "1": "Cooldown reduced by 2 seconds",
+      "2": "+380% Base Damage"
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Sharpshooter",
+    "stages": {
+      "1": "Secondary Group Cooldown reduced by 8 seconds and no longer blocks casting of support spells",
+      "2": "Cooldown reduced by 6 seconds, increases the distance fighting bonus from 40% to 45%"
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Heal Friend",
+    "stages": {
+      "1": "-10 Mana Cost",
+      "2": "+5.5% Base Healing"
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Terra Wave",
+    "stages": {
+      "1": "+6.5% Base Damage",
+      "2": "Adds 5% life leech to this spell"
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Mass Healing",
+    "stages": {
+      "1": "+4% Base Healing",
+      "2": "Area increased"
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Strong Ice Wave",
+    "stages": {
+      "1": "Adds 3% mana leech to this spell",
+      "2": "+10% Base Damage"
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Nature's Embrace",
+    "stages": {
+      "1": "+11% Base Healing",
+      "2": "Cooldown reduced by 10 seconds"
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Great Fire Wave",
+    "stages": {
+      "1": "Adds critical hit chance of 10% and +15% critical extra damage",
+      "2": "+5% Base Damage"
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Energy Wave",
+    "stages": {
+      "1": "+5% Base Damage",
+      "2": "Increased area"
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Sap Strength",
+    "stages": {
+      "1": "Increased area",
+      "2": "Damage reduction increased by +1%"
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Magic Shield",
+    "stages": {
+      "1": "Increases the impact level and magic level has on magic shield capacity",
+      "2": "Cooldown reduced by 6 seconds"
+    }
+  },
+  {
+    "type": "conviction",
+    "name": "Focus Spells",
+    "stages": {
+      "1": "+5% Base Damage",
+      "2": "Focus Secondary Cooldown reduced by 4 seconds"
+    }
+  },
+  {
+    "type": "revelation",
+    "name": "Passive",
+    "effect": "Damage and healing increase",
+    "stages": {
+      "1": "4",
+      "2": "9",
+      "3": "20"
+    }
+  },
+  {
+    "type": "revelation",
+    "name": "Combat Mastery",
+    "effect": "Additional shield defence",
+    "stages": {
+      "1": "10",
+      "2": "20",
+      "3": "30"
+    }
+  },
+  {
+    "type": "revelation",
+    "name": "Combat Mastery",
+    "effect": "Extra critical damage",
+    "stages": {
+      "1": "4%",
+      "2": "8%",
+      "3": "12%"
+    }
+  },
+  {
+    "type": "revelation",
+    "name": "Blessing of the Grove",
+    "effect": "Increased healingTarget between 30 ~ 60% HP",
+    "stages": {
+      "1": "6%",
+      "2": "9%",
+      "3": "12%"
+    }
+  },
+  {
+    "type": "revelation",
+    "name": "Blessing of the Grove",
+    "effect": "Increased healingTarget below 30% HP",
+    "stages": {
+      "1": "12%",
+      "2": "18%",
+      "3": "24%"
+    }
+  },
+  {
+    "type": "revelation",
+    "name": "Beam Mastery",
+    "effect": "Cooldown reduction of all spells (per target hit by a beam)",
+    "stages": {
+      "1": "1 second (3 seconds max.)"
+    }
+  },
+  {
+    "type": "revelation",
+    "name": "Beam Mastery",
+    "effect": "Damage increase of beam spells (per target hit by a beam)",
+    "stages": {
+      "1": "10% (30% max.)",
+      "2": "12% (36% max.)",
+      "3": "14% (42% max.)"
+    }
+  },
+  {
+    "type": "revelation",
+    "name": "Drain Body",
+    "effect": "Additional mana leech",
+    "stages": {
+      "1": "1%",
+      "2": "2%",
+      "3": "3%"
+    }
+  },
+  {
+    "type": "revelation",
+    "name": "Drain Body",
+    "effect": "Additional life leech",
+    "stages": {
+      "1": "3%",
+      "2": "4%",
+      "3": "5%"
+    }
+  }
+]
