@@ -1,30 +1,20 @@
-:root {
-  --bg: #1e1e2f;
-  --card-bg: #29293d;
-  --text: #f0f0f0;
-  --accent: #ffd700;
-  --dedication: #4fc3f7;
-  --conviction: #81c784;
-  --revelation: #f06292;
-}
-
 body {
   margin: 0;
+  background: #111;
+  color: #eee;
   font-family: 'Segoe UI', sans-serif;
-  background-color: var(--bg);
-  color: var(--text);
+  text-align: center;
 }
 
 header {
-  background: #141421;
+  background: #222;
   padding: 20px;
-  text-align: center;
-  border-bottom: 2px solid var(--accent);
+  border-bottom: 2px solid #FFD700;
 }
 
 h1 {
   margin: 0 0 10px;
-  color: var(--accent);
+  color: #FFD700;
 }
 
 select {
@@ -34,36 +24,24 @@ select {
 }
 
 main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
 }
 
-.perk-card {
-  background: var(--card-bg);
+#perk-info {
+  max-width: 500px;
+  background: #1e1e1e;
   border-radius: 8px;
   padding: 16px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  transition: transform 0.2s;
+  margin-top: 20px;
+  box-shadow: 0 0 8px rgba(255,255,255,0.1);
 }
-
-.perk-card:hover {
-  transform: scale(1.02);
-}
-
-.perk-card h3 {
-  margin-top: 0;
-}
-
-.perk-card.dedication { border-left: 6px solid var(--dedication); }
-.perk-card.conviction { border-left: 6px solid var(--conviction); }
-.perk-card.revelation { border-left: 6px solid var(--revelation); }
 
 footer {
-  text-align: center;
+  margin-top: 40px;
   padding: 10px;
-  font-size: 14px;
-  background: #141421;
+  background: #222;
   color: #888;
 }

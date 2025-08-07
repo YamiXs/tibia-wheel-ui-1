@@ -8,17 +8,24 @@
 </head>
 <body>
   <header>
-    <h1>🧙‍♂️ Tibia Wheel of Destiny</h1>
-    <select id="type-filter">
-      <option value="all">All Types</option>
-      <option value="dedication">Dedication</option>
-      <option value="conviction">Conviction</option>
-      <option value="revelation">Revelation</option>
+    <h1>🧙 Tibia Wheel of Destiny</h1>
+    <select id="vocation-selector">
+      <option value="knight">Knight</option>
+      <option value="paladin">Paladin</option>
+      <option value="druid">Druid</option>
+      <option value="sorcerer">Sorcerer</option>
     </select>
   </header>
-  <main id="perks-container"></main>
-  <footer>Made with ❤️ for the Tibia community</footer>
-  <script src="main.js"></script>
+
+  <main>
+    <svg id="wheel" width="600" height="600" viewBox="0 0 600 600"></svg>
+    <section id="perk-info">
+      <h2>🧩 Perk Info</h2>
+      <div id="perk-details">Click a slice to view info.</div>
+    </section>
+  </main>
+
+  <footer>Made with ❤️ for Tibia fans</footer>
+  <script src="wheel.js"></script>
 </body>
 </html>
-
